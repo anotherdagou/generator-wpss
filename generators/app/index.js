@@ -7,11 +7,11 @@ var writing = require('./writing');
 module.exports = generators.Base.extend({
 
     // Get User Information
-    prompting: {
-        askForWordpressVersion: prompting.askForWordpressVersion,
-        askForDBConnection: prompting.askForDBConnection,
-        askForWPInstallation: prompting.askForWPInstallation
-    },
+    // prompting: {
+    //     askForWordpressVersion: prompting.askForWordpressVersion,
+    //     askForDBConnection: prompting.askForDBConnection,
+    //     askForWPInstallation: prompting.askForWPInstallation
+    // },
 
     // Copy common files for the new project (.gitignore, package.json, html, etc)
     writing: {
@@ -19,11 +19,11 @@ module.exports = generators.Base.extend({
     },
 
     // Install Dependencies and run command lines
-    install: {
-        downloadWP: installing.downloadWP,
-        setWPConfig: installing.setWPConfig,
-        installWP: installing.installWP,
-        installPlugins: installing.installPlugins,
-        installModules: installing.installModules
-    }
+    // install: {
+    //     downloadWP: installing.downloadWP,
+    //     setWPConfig: installing.setWPConfig,
+    //     installWP: installing.installWP,
+    //     installPlugins: installing.installPlugins,
+    //     installModules: installing.installModules
+    // }
 });

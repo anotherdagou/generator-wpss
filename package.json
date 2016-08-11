@@ -1,7 +1,7 @@
 {
     "name": "generator-wpss",
     "version": "0.0.1",
-    "description": "\"A Yeoman generator that create a base for developing a Wordpress Website.\"",
+    "description": "A Yeoman generator that create a base for developing a Wordpress Website",
     "author": {
         "name": "Diego Armando Catalan Tandi",
         "email": "diego@drombit.com",
