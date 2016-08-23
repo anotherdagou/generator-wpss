@@ -21,11 +21,19 @@ Git-ftp It keeps track of the uploaded files by storing the commit id in a log f
 - Setup Git-ftp
 
 ```sh
-git config git-ftp.url ftp.example.net # sftp://sftp.example.net:2222/ (url with secure connection and custom port)
+git config git-ftp.url ftp.example.net 
+
+# Or if you need a more specific connection (url with secure connection and custom port)
+git config git-ftp.url sftp://sftp.example.net:2222/ 
+
 git config git-ftp.user ftp-user
 git config git-ftp.password ftp-password
-git config git-ftp.remote-root wp-content/themes/your-theme  # Specifies the remote root directory to deploy to. The remote path in the URL is ignored.
-git config git-ftp.syncroot wp-content/themes/your-theme # Specifies a local directory to sync from as if it were the git project root path.
+
+# Specifies the remote root directory to deploy to. The remote path in the URL is ignored.
+git config git-ftp.remote-root wp-content/themes/your-theme  
+
+# Specifies a local directory to sync from as if it were the git project root path.
+git config git-ftp.syncroot wp-content/themes/your-theme 
 
 # Upload all files
 git ftp init
@@ -43,4 +51,4 @@ git ftp push
 # Last deployment changed to ded01b27e5c785fb251150805308d3d0f8117387.
 ```
 
-for mor options [see the oficial documentation](https://github.com/git-ftp/git-ftp/blob/develop/man/git-ftp.1.md)
+For mor options [see the oficial documentation](https://github.com/git-ftp/git-ftp/blob/develop/man/git-ftp.1.md)
