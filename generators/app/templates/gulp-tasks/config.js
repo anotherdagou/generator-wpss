@@ -1,6 +1,5 @@
 var devURL = '<%= url %>';
-var themesRoot = './wp-content/themes/';
-var wpTemplate= themesRoot+'your_template/';
+var wpTemplate = './wp-content/themes/olympus/';
 
 module.exports = {
     browserSync: {
