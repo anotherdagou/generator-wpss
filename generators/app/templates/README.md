@@ -10,7 +10,7 @@ This is a project generated with generator-wpss, under the hood WPSS has install
 	- **watch.js**: task that see any new change in the files of your template
 	- **default.js**: main task that gulp run.
 
-Feel free to uptede these files with your needs. Happy Codding. 
+Feel free to uptede these files with your needs.
 
 ## Deploy with Git-ftp
 If you don't have access to the server thorught SSH use this configuration for upload your changes trought [FTP with Git-ftp plugin](https://github.com/git-ftp/git-ftp)

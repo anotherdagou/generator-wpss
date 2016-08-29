@@ -1,4 +1,6 @@
 var gulp = require('gulp');
 var config = require('./config');
 
-gulp.task('watch', ['browserSync']);
+gulp.task('watch', ['browserSync'], function(){
+	gulp.watch(config.sass.srcFrontEnqueue, ['sass']);
+});
