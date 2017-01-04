@@ -10,12 +10,7 @@ First install wp-cli. There are  many ways to install wp-cli, please visit the o
 - Clone this repository
 - Go to generator-wpss folder `cd generator-wpss`
 - Link generator-wpss to npm in local `npm link`
-- Install Yeoman and genearator-wpss
-```
-    npm install -g yo
-    npm install -g gulp
-    npm install -g generator-wpss
-```
+- Install Yeoman and genearator-wpss `npm install -g yo`
 
 Then generate your new project:
 
