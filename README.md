@@ -7,6 +7,10 @@ A tiny Yeoman generator that sets up a wordpress website with the help of **wp-c
 First install wp-cli. There are  many ways to install wp-cli, please visit the oficial website and choose your favorite solution: [https://wp-cli.org/docs/installing/](https://wp-cli.org/docs/installing/)
 
 ## Installing Yeoman, generator-wpss and Gulp
+- Clone this repository
+- Go to generator-wpss folder `cd generator-wpss`
+- Link generator-wpss to npm in local `npm link`
+- Install Yeoman and genearator-wpss
 ```
     npm install -g yo
     npm install -g gulp
